@@ -1,0 +1,6 @@
+-sname erl_csv_generator
+
+-setcookie erl_csv_generator_cookie
+
++K true
++A30

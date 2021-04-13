@@ -1,0 +1,15 @@
+{application, erl_csv_generator,
+ [{description, "An Erlang CSV generator"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {erl_csv_generator_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
