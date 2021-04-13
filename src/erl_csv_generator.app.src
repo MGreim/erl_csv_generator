@@ -1,14 +1,14 @@
-{application, erl_csv_generator,
- [
-  {description, "An Erlang library for writing CSV files"},
-  {vsn, "1"},
-  {modules, [
-             csv_gen
-            ]},
+{application, modbus,
+ [{description, "An Erlang csf file generator"},
+  {vsn, "0.1.0"},
   {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {env, []}
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
  ]}.
